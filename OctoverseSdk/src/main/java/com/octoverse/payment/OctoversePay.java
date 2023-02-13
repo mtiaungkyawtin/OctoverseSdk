@@ -32,7 +32,7 @@ public class OctoversePay {
     public static void invokePayment(@NonNull Activity var0, String var1, String var2, String var3, String var4, @NonNull String var5) {
         switch (var5) {
             case KA: {
-                //com.kbzbank.payment.KBZPay.startPay(var0, var1, var2, var3);
+                com.kbzbank.payment.KBZPay.startPay(var0, var1, var2, var3);
                 break;
             }
             case CP: {
